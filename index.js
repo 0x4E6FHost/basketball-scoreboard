@@ -1,9 +1,9 @@
 let homeScore = 0
-let guestScore = 0
+let awayScore = 0
 
 function updateScoreboard() {
     document.getElementById("home-score-el").textContent = homeScore
-    document.getElementById("guest-score-el").textContent = guestScore
+    document.getElementById("away-score-el").textContent = awayScore
 }
 
 updateScoreboard()
@@ -13,13 +13,13 @@ function addHomePoint(point) {
     updateScoreboard()
 }
 
-function addGuestPoint(point) {
-    guestScore += point
+function addAwayPoint(point) {
+    awayScore += point
     updateScoreboard()
 }
 
 function resetGame() {
     homeScore = 0
-    guestScore = 0
+    awayScore = 0
     updateScoreboard()
 }
