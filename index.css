@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Scoreboard;
+    src: url(CursedTimerUlil-Aznm.ttf);
+    font-weight: normal;
+}
+
+body {
+    margin: 0;
+    background: #064E3B;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.container * {
+    margin: 0;
+}
+
+.container h3 {
+    color: white;
+    margin-top: 10px;
+}
+
+.container h1 {
+    background: #080001;
+    color: #F43F5E;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 50px;
+}
+
+.container button {
+    background: 0;
+    color: #A7F3D0;
+    border: 1px solid #A7F3D0;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+.container h1, button {
+    font-family: Scoreboard;
+}
+
+.options {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.options button {
+    background: 0;
+    color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 8px;
+}
